@@ -1,0 +1,69 @@
+html {
+  font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+  font-family: 'Roboto', sans-serif;
+  background-color: #00539F;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #333; /* Dark background for the nav bar */
+  padding: 10px 0;
+  margin-bottom: 20px; /* Space below the nav bar */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center the list items */
+}
+
+nav ul li {
+  display: inline; /* Make list items appear in a line */
+  margin-right: 20px; /* Space between list items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* No margin for the last item */
+}
+
+nav ul li a {
+  color: white; /* Link text color */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #FF9500; /* Change color on hover, using existing theme color */
+}
