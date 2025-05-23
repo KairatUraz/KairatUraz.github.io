@@ -1,0 +1,25 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="history.html">История</a></li>
+        <li><a href="biography.html">Биография</a></li>
+      </ul>
+    </nav>
+    <h1>Страница контактов</h1>
+    <p>Если у вас есть вопросы, свяжитесь с нами:</p>
+    <ul>
+      <li>Email: placeholder@example.com</li>
+      <li>Телефон: +7 (000) 000-00-00</li>
+      <li>Адрес: г. Placeholder, ул. Тестовая, д. 1</li>
+    </ul>
+</body>
+</html>
